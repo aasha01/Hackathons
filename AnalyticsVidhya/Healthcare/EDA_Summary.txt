@@ -1,0 +1,40 @@
+Label Encoding Columns - Ordered:
+Severity of Illness
+
+City_Code_Patient:
+Change the CityCode to Other if count is < 1000 
+
+
+# Hospital Code grouping by value_counts
+<6000 - A
+>6000 & <10,000 - B
+>1000 & <20,000 - C
+>20000 & <25,000 - D
+>25000 - E
+
+
+Age:
+Find mean of upper and lower limit
+OR
+Split Age into 2 columns 1. Age_LowerLimit 2. Age_UpperLimit
+
+One Hot encodings:
+Type of Admission
+
+City_Code_Patient
+
+Ward_Facility_Code
+Ward_Type
+Department
+
+City_Code_Hospital
+Hospital_region_code
+Hospital_type_code
+Hospital_code
+
+
+
+Using PatientId and CaseId create a new column named Single Visit or Revisited (SingleVisited/Revisited)
+Using PatientId and CaseId create a new column named isFirstVisit (yes/no)
+
+
